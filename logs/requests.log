@@ -1,0 +1,100 @@
+2025-05-27 15:56:35,106 - uvicorn.error - INFO - Will watch for changes in these directories: ['/Users/crm/Desktop/workspace/fastapi-rpac']
+2025-05-27 15:56:35,108 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-05-27 15:56:35,109 - uvicorn.error - INFO - Started reloader process [36701] using WatchFiles
+2025-05-27 15:56:35,862 - uvicorn.error - INFO - Started server process [36703]
+2025-05-27 15:56:35,863 - uvicorn.error - INFO - Waiting for application startup.
+2025-05-27 15:56:35,864 - uvicorn.error - INFO - Application startup complete.
+2025-05-27 15:56:42,807 - RequestLogger - INFO - GET / - 200 - 0.0028s
+2025-05-27 15:56:48,147 - RequestLogger - WARNING - GET /dosc - 401 - 0.0005s
+详细信息: {
+  "request": {
+    "timestamp": "2025-05-27 15:56:48",
+    "method": "GET",
+    "url": "http://127.0.0.1:8000/dosc",
+    "path": "/dosc",
+    "query_params": {},
+    "headers": {
+      "host": "127.0.0.1:8000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "sec-fetch-site": "none",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-user": "?1",
+      "sec-fetch-dest": "document",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+      "cookie": "***FILTERED***"
+    },
+    "body_size": 0,
+    "body": "",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+    "user_id": null,
+    "authenticated": false
+  },
+  "response": {
+    "status_code": 401,
+    "process_time": 0.0005,
+    "response_headers": {
+      "content-length": "35",
+      "content-type": "application/json"
+    },
+    "content_length": "35"
+  }
+}
+2025-05-27 15:56:53,448 - RequestLogger - WARNING - GET /openai - 401 - 0.0008s
+详细信息: {
+  "request": {
+    "timestamp": "2025-05-27 15:56:53",
+    "method": "GET",
+    "url": "http://127.0.0.1:8000/openai",
+    "path": "/openai",
+    "query_params": {},
+    "headers": {
+      "host": "127.0.0.1:8000",
+      "connection": "keep-alive",
+      "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "sec-fetch-site": "none",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-user": "?1",
+      "sec-fetch-dest": "document",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+      "cookie": "***FILTERED***"
+    },
+    "body_size": 0,
+    "body": "",
+    "client_ip": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0",
+    "user_id": null,
+    "authenticated": false
+  },
+  "response": {
+    "status_code": 401,
+    "process_time": 0.0008,
+    "response_headers": {
+      "content-length": "35",
+      "content-type": "application/json"
+    },
+    "content_length": "35"
+  }
+}
+2025-05-27 15:57:04,773 - RequestLogger - INFO - GET /docs - 200 - 0.0007s
+2025-05-27 15:57:05,811 - RequestLogger - INFO - GET /openapi.json - 200 - 0.0133s
+2025-05-27 15:57:05,899 - watchfiles.main - INFO - 3 changes detected
+2025-05-27 15:57:27,100 - RequestLogger - INFO - GET /openapi.json - 200 - 0.0017s
+2025-05-27 15:57:31,984 - uvicorn.error - INFO - Shutting down
+2025-05-27 15:57:32,086 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-05-27 15:57:32,087 - uvicorn.error - INFO - Application shutdown complete.
+2025-05-27 15:57:32,088 - uvicorn.error - INFO - Finished server process [36703]
+2025-05-27 15:57:32,093 - uvicorn.error - INFO - Stopping reloader process [36701]

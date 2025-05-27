@@ -1,7 +1,7 @@
 import os
 from typing import Optional
 from fastapi import Request, Response, HTTPException
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi.security import HTTPBearer
 from starlette.middleware.base import BaseHTTPMiddleware
 
 from services.token_service import TokenService

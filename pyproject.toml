@@ -1,0 +1,17 @@
+[project]
+name = "fastapi-rpac"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.16.1",
+    "asyncpg>=0.30.0",
+    "bcrypt==4.3.0",
+    "dependency-injector>=4.46.0",
+    "fastapi>=0.115.12",
+    "fastapi-cli>=0.0.7",
+    "psycopg2-binary>=2.9.10",
+    "pyjwt>=2.10.1",
+    "sqlmodel>=0.0.24",
+]

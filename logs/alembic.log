@@ -1,0 +1,60 @@
+2025-05-27 13:02:14 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:02:14 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:02:14 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:02:14 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:02:14 - INFO - alembic.autogenerate.compare - Detected added table 'user'
+2025-05-27 13:02:14 - INFO - alembic.autogenerate.compare - Detected added table 'user'
+2025-05-27 13:11:28 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:11:28 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:11:28 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:11:28 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:11:28 - INFO - alembic.runtime.migration - Running upgrade  -> e801a8481511, empty message
+2025-05-27 13:11:28 - INFO - alembic.runtime.migration - Running upgrade  -> e801a8481511, empty message
+2025-05-27 13:15:56 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:15:56 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:15:56 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:15:56 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:15:56 - INFO - alembic.autogenerate.compare - Detected added table 'permission'
+2025-05-27 13:15:56 - INFO - alembic.autogenerate.compare - Detected added table 'permission'
+2025-05-27 13:15:56 - INFO - alembic.autogenerate.compare - Detected added table 'role'
+2025-05-27 13:15:56 - INFO - alembic.autogenerate.compare - Detected added table 'role'
+2025-05-27 13:15:56 - INFO - alembic.autogenerate.compare - Detected added table 'userrole'
+2025-05-27 13:15:56 - INFO - alembic.autogenerate.compare - Detected added table 'userrole'
+2025-05-27 13:15:56 - INFO - alembic.ddl.postgresql - Detected sequence named 'user_id_seq' as owned by integer column 'user(id)', assuming SERIAL and omitting
+2025-05-27 13:15:56 - INFO - alembic.ddl.postgresql - Detected sequence named 'user_id_seq' as owned by integer column 'user(id)', assuming SERIAL and omitting
+2025-05-27 13:18:33 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:18:33 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:18:33 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:18:33 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:18:33 - ERROR - alembic.util.messaging - Target database is not up to date.
+2025-05-27 13:18:33 - ERROR - alembic.util.messaging - Target database is not up to date.
+2025-05-27 13:18:43 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:18:43 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:18:43 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:18:43 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:18:43 - ERROR - alembic.util.messaging - Target database is not up to date.
+2025-05-27 13:18:43 - ERROR - alembic.util.messaging - Target database is not up to date.
+2025-05-27 13:18:53 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:18:53 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:18:53 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:18:53 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:18:53 - INFO - alembic.runtime.migration - Running upgrade e801a8481511 -> 0a6756942d87, update_user_role_composite_primary_key
+2025-05-27 13:18:53 - INFO - alembic.runtime.migration - Running upgrade e801a8481511 -> 0a6756942d87, update_user_role_composite_primary_key
+2025-05-27 13:18:55 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:18:55 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:18:55 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:18:55 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:18:55 - INFO - alembic.autogenerate.compare - Detected added table 'role_permission'
+2025-05-27 13:18:55 - INFO - alembic.autogenerate.compare - Detected added table 'role_permission'
+2025-05-27 13:18:55 - INFO - alembic.ddl.postgresql - Detected sequence named 'permission_id_seq' as owned by integer column 'permission(id)', assuming SERIAL and omitting
+2025-05-27 13:18:55 - INFO - alembic.ddl.postgresql - Detected sequence named 'permission_id_seq' as owned by integer column 'permission(id)', assuming SERIAL and omitting
+2025-05-27 13:18:55 - INFO - alembic.ddl.postgresql - Detected sequence named 'user_id_seq' as owned by integer column 'user(id)', assuming SERIAL and omitting
+2025-05-27 13:18:55 - INFO - alembic.ddl.postgresql - Detected sequence named 'user_id_seq' as owned by integer column 'user(id)', assuming SERIAL and omitting
+2025-05-27 13:18:55 - INFO - alembic.ddl.postgresql - Detected sequence named 'role_id_seq' as owned by integer column 'role(id)', assuming SERIAL and omitting
+2025-05-27 13:18:55 - INFO - alembic.ddl.postgresql - Detected sequence named 'role_id_seq' as owned by integer column 'role(id)', assuming SERIAL and omitting
+2025-05-27 13:19:13 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:19:13 - INFO - alembic.runtime.migration - Context impl PostgresqlImpl.
+2025-05-27 13:19:13 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:19:13 - INFO - alembic.runtime.migration - Will assume transactional DDL.
+2025-05-27 13:19:13 - INFO - alembic.runtime.migration - Running upgrade 0a6756942d87 -> 0a1329500997, empty message
+2025-05-27 13:19:13 - INFO - alembic.runtime.migration - Running upgrade 0a6756942d87 -> 0a1329500997, empty message

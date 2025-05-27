@@ -1,0 +1,15 @@
+# 项目数据库迁移教程
+
+## 注意
+
+- 首次适配数据时需要再数据库中手动创建`alembic_version`表,将迁移文件中的revision版本号手动添加到表中，执行迁移后不会冲突报错。
+
+```sql
+CREATE TABLE alembic_version (
+    version_num VARCHAR(32) NOT NULL,
+    CONSTRAINT alembic_version_pkc PRIMARY KEY (version_num)
+);
+
+-- 将下面的'your_revision_id'替换为实际的revision版本号
+INSERT INTO alembic_version (version_num) VALUES ('xxx');
+```
